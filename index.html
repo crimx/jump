@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <script>
+      var url = new URL(document.URL).searchParams.get('url')
+      if (url) {
+        window.location.replace(decodeURIComponent(url)) 
+      }
+    </script>
+  </body>
+</html>
